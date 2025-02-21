@@ -1,0 +1,47 @@
+{
+  "name": "gs-orm",
+  "version": "1.0.0",
+  "description": "ORM for Google Sheets - Use Google Sheets as a database with ORM functionality",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint lib/**/*.js",
+    "lint:fix": "eslint lib/**/*.js --fix",
+    "prepublishOnly": "npm run lint && npm run test",
+    "start:example:basic": "node examples/basic.js",
+    "start:example:advanced": "node examples/advanced.js",
+    "start:example:relationships": "node examples/relationships.js",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "google-sheets",
+    "orm",
+    "database",
+    "spreadsheet",
+    "google",
+    "sheets"
+  ],
+  "author": "ParthaKonda <parthasaradhi1992@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "jest": "^29.5.0",
+    "jsdoc": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthakonda/gs-orm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parthakonda/gs-orm/issues"
+  },
+  "homepage": "https://github.com/parthakonda/gs-orm#readme"
+}
