@@ -1,6 +1,6 @@
 {
   "name": "gs-orm",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "ORM for Google Sheets - Use Google Sheets as a database with ORM functionality",
   "main": "lib/index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "start:example:basic": "node examples/basic.js",
     "start:example:advanced": "node examples/advanced.js",
     "start:example:relationships": "node examples/relationships.js",
+    "start:example:sheets": "node examples/sheets.js",
     "docs": "jsdoc -c jsdoc.json"
   },
   "keywords": [
@@ -26,7 +27,9 @@
   "author": "ParthaKonda <parthasaradhi1992@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "google-spreadsheet": "^3.3.0"
+    "google-auth-library": "^9.15.1",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^146.0.0"
   },
   "devDependencies": {
     "eslint": "^8.40.0",
