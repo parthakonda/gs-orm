@@ -1,6 +1,6 @@
 {
   "name": "gs-orm",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "ORM for Google Sheets - Use Google Sheets as a database with ORM functionality",
   "main": "lib/index.js",
   "scripts": {
